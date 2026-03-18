@@ -1,41 +1,13 @@
 # smart-camera-analytics
 
-**Real-time video analytics with object detection, tracking, and behavior analysis**
+Stub Python project. Described as a smart camera analytics platform, but none of that functionality exists.
 
-![Build](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-proprietary-red)
+## What's actually here
 
-## Install
-```bash
-pip install -e ".[dev]"
-```
+A single class in `src/core.py` (SmartCameraAnalytics) with placeholder methods that each return a fixed dictionary without doing any real work. There is no video processing, no object detection, no camera integration - just stubs.
 
-## Quick Start
-```python
-from src.core import SmartCameraAnalytics
- instance = SmartCameraAnalytics()
-r = instance.detect(input="test")
-```
+The project uses only Python standard library imports (time, logging, json, typing). No computer vision or video libraries are present.
 
-## CLI
-```bash
-python -m src status
-python -m src run --input "data"
-```
+## Status
 
-## API
-| Method | Description |
-|--------|-------------|
-| `detect()` | Detect |
-| `scan()` | Scan |
-| `monitor()` | Monitor |
-| `alert()` | Alert |
-| `get_report()` | Get report |
-| `configure()` | Configure |
-| `get_stats()` | Get stats |
-| `reset()` | Reset |
-
-## Test
-```bash
-pytest tests/ -v
-```
-
+Scaffolding only. No working camera analytics functionality exists.
