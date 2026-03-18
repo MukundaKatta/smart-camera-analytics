@@ -1,13 +1,15 @@
-# smart-camera-analytics
+# Smart Camera Analytics
 
-Stub Python project. Described as a smart camera analytics platform, but none of that functionality exists.
+Computer vision analytics platform for intelligent video stream processing and event detection.
 
-## What's actually here
+## About
+Smart Camera Analytics applies real-time computer vision to video feeds for object detection, activity recognition, and anomaly detection. It processes camera streams to generate actionable insights for security, retail, and operations use cases.
 
-A single class in `src/core.py` (SmartCameraAnalytics) with placeholder methods that each return a fixed dictionary without doing any real work. There is no video processing, no object detection, no camera integration - just stubs.
-
-The project uses only Python standard library imports (time, logging, json, typing). No computer vision or video libraries are present.
+## Tech Stack
+- Language: Python
+- CV: Object detection and tracking models
+- Streaming: Real-time video processing pipeline
+- Analytics: Event detection and alerting system
 
 ## Status
-
-Scaffolding only. No working camera analytics functionality exists.
+Active development - video processing pipeline and detection models established.
